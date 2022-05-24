@@ -1,0 +1,8 @@
+public class SimpleInterest {
+    public static void calculateintrest(Integer principalAMT,Integer NumberOfYears,Decimal rate){
+        System.debug('SimpleInterest>>> '+ ((principalAMT*NumberOfYears*rate)/100)); 
+    }
+}
+
+
+SimpleInterest.calculateintrest(1000,5,4.7);
